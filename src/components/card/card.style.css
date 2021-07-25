@@ -7,9 +7,12 @@
   padding: 25px;
   cursor: pointer;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
+  margin: 0 0.25rem 0.5rem 0.25rem;
+  width: 245px;
 }
 
 .card-container:hover {
